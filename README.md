@@ -1,6 +1,6 @@
 # Repository for Experimental Results
 
-This repository contains the code and data used for the experiments reported in paper.  
+This repository contains the code and data used for the experiments presented in the paper **_Imprecise Acquisitions in Bayesian Optimization_**.
 All identifying information (e.g., author names, affiliations, and institution-specific details) has been removed to preserve anonymity.
 
 ---
