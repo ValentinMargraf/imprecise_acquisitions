@@ -1,0 +1,28 @@
+PY_EXPERIMENTER:
+  n_jobs: 1
+
+  Database:
+    provider: mysql
+    database: imprecise_bo
+    table:
+      name: bbob #_ucb_8
+      keyfields:
+        "bbob_dim":
+          type: INT
+          #values: [ 2, 4, 8, 16, 32 ]
+        "bbob_name":
+          type: VARCHAR(50)
+        "acq_func":
+          type: VARCHAR(50)
+        "config":
+          type: INT
+        "hyperprior":
+          type: VARCHAR(50)
+        "seed":
+          type: INT
+
+
+    logtables:
+      history_log:
+        Y_incumbent: TEXT
+        regret_incumbent: TEXT

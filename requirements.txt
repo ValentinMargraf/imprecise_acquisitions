@@ -1,0 +1,9 @@
+botorch==0.14.0
+py-experimenter==1.4.2
+matplotlib==3.10.3
+torch>=2.1.0
+gpytorch>=1.11
+pandas>=2.0.0
+numpy>=1.25.0
+scipy>=1.11.0
+tqdm>=4.66.0
